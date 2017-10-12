@@ -74,6 +74,7 @@ Rails.application.configure do
   config.active_support.deprecation = :notify
 
   # Use default logging formatter so that PID and timestamp are not suppressed.
+  # noinspection RubyArgCount
   config.log_formatter = ::Logger::Formatter.new
 
   # Use a different logger for distributed setups.
